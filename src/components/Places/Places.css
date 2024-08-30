@@ -1,0 +1,45 @@
+
+.places {
+  background-color: var(--color-gray-50);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.places__dark {
+  background-color: var(--color-gray-900);
+  color: var(--color-white);
+}
+
+.places__section {
+  animation: fade-up;
+}
+
+.places__title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-left-width: 0.5rem;
+  border-left-color: grey;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+.places__grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .places__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .places__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

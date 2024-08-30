@@ -1,0 +1,14 @@
+.video_container {
+  height: 700px;
+  position: relative;
+}
+
+.video_element {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}

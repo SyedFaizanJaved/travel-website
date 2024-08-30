@@ -1,0 +1,63 @@
+.responsive_menu {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 75%;
+  height: 100vh;
+  background-color: white;
+  color: black;
+  padding: 16px 32px 24px;
+  transition: all 0.2s;
+  border-radius: 0 1rem 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.responsive_menu_show {
+  left: 0;
+}
+
+.responsive_menu_hide {
+  left: -100%;
+}
+
+.responsive_menu_card {
+  display: flex;
+  flex-direction: column;
+}
+
+.responsive_menu_user_info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.responsive_menu_user_status {
+  font-size: 0.875rem;
+  color: #6b7280; /* Slate-500 equivalent */
+}
+
+.responsive_menu_nav {
+  margin-top: 48px;
+}
+
+.responsive_menu_list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 1.25rem;
+}
+
+.responsive_menu_link {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.responsive_menu_footer {
+  text-align: center;
+}

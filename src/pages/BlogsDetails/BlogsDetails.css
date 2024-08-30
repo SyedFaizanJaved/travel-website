@@ -1,0 +1,62 @@
+
+.pt_20 {
+  padding-top: 5rem; 
+}
+
+.h_300px {
+  height: 300px; /* Equivalent to h-[300px] */
+}
+
+.overflow_hidden {
+  overflow: hidden; /* Equivalent to overflow-hidden */
+}
+
+.img_transition {
+  transition: transform 0.7s; /* Equivalent to transition duration-700 */
+}
+
+.img_hover_scale {
+  transform: scale(1); /* Initial scale */
+}
+
+.img_hover_scale:hover {
+  transform: scale(1.1); /* Equivalent to hover:scale-110 */
+}
+
+.mx_auto {
+  margin-left: auto; /* Equivalent to mx-auto */
+  margin-right: auto;
+}
+
+.w_full {
+  width: 100%; /* Equivalent to w-full */
+}
+
+.object_cover {
+  object-fit: cover; /* Equivalent to object-cover */
+}
+
+.container {
+  /* Add your container styles here if needed */
+}
+
+.text_slate_600 {
+  color: #718096; /* Equivalent to text-slate-600 */
+}
+
+.text_sm {
+  font-size: 0.875rem; /* Equivalent to text-sm */
+}
+
+.py_3 {
+  padding-top: 0.75rem; /* Equivalent to py-3 */
+  padding-bottom: 0.75rem;
+}
+
+.text_2xl {
+  font-size: 1.5rem; /* Equivalent to text-2xl */
+}
+
+.font_semibold {
+  font-weight: 600; /* Equivalent to font-semibold */
+}

@@ -1,0 +1,154 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 50;
+  background-color: white;
+  
+  backdrop-filter: blur(10px);
+  color: black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar_top {
+  background-color:#0079E6;
+  color: white;
+}
+
+.navbar_container {
+    
+  padding: 8px 16px;
+}
+
+.navbar_top_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar_top_text {
+  font-size: 0.875rem;
+}
+
+.navbar_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar_logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.navbar_logo_img {
+  height: 64px;
+}
+
+.navbar_links {
+  display: none;
+}
+
+.navbar_links_list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navbar_link_item {
+  padding: 16px 0;
+}
+
+.navbar_link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar_dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar_dropdown_link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 72px;
+}
+
+.navbar_dropdown_icon {
+  transition: transform 0.2s;
+}
+
+.navbar_dropdown_menu {
+  position: absolute;
+  left: -36px;
+  z-index: 9999;
+  display: none;
+  width: 150px;
+  background-color: white;
+  padding: 8px;
+  color: black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar_dropdown:hover .navbar_dropdown_menu {
+  display: block;
+}
+
+.navbar_dropdown_list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.navbar_dropdown_item {
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.navbar_dropdown_link_item {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar_actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar_button {
+    background-color:#0079E6;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 9999px;
+  transition: background 0.6s;
+}
+
+.navbar_button:hover {
+  background-color:#155FA3;
+}
+
+.navbar_hamburger {
+  display: block;
+}
+
+.navbar_hamburger_icon {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+@media (min-width: 768px) {
+  .navbar_links {
+    display: block;
+  }
+
+  .navbar_hamburger {
+    display: none;
+  }
+}

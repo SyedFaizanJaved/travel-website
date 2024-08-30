@@ -1,0 +1,26 @@
+
+.container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  display: inline-block;
+  border-left: 8px solid rgba(0, 123, 255, 0.5); /* Adjust the color as needed */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+@media (min-width: 640px) {
+  .heading {
+    font-size: 1.875rem;
+  }
+}
+
+.rounded {
+  border-radius: 1.25rem;
+}

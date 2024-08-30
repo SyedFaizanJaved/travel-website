@@ -1,0 +1,39 @@
+/* AboutStyles.css */
+.container {
+  padding-top: 3.5rem; /* Equivalent to pt-14 */
+}
+
+.py-10 {
+  padding-top: 2.5rem; /* Equivalent to py-10 */
+  padding-bottom: 2.5rem;
+}
+
+.h1_my_8 {
+  margin-top: 2rem; /* Equivalent to my-8 */
+  margin-bottom: 2rem;
+}
+
+.h1_border_l_8 {
+  border-left-width: .5rem; /* Equivalent to border-l-8 */
+}
+
+.h1_border_primary_50 {
+  border-left: 8px solid rgba(0, 123, 255, 0.5); /* Adjust the color as needed */
+}
+
+.h1_py_2 {
+  padding-top: 0.5rem; 
+  padding-bottom: 0.5rem;
+}
+
+.h1_pl_2 {
+  padding-left: 0.5rem; /* Equivalent to pl-2 */
+}
+
+.h1_text_3xl {
+  font-size: 1.875rem; /* Equivalent to text-3xl */
+}
+
+.h1_font_bold {
+  font-weight: bold; /* Equivalent to font-bold */
+}

@@ -1,0 +1,11 @@
+.min_h_screen {
+  min-height: 100vh; 
+}
+
+.pt_14 {
+  padding-top: 3.5rem; 
+}
+
+.bg_gray_100 {
+  background-color: #f7fafc; 
+}

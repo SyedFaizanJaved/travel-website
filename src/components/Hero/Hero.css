@@ -1,0 +1,149 @@
+.bg_black_20 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.h_full {
+  height: 100%;
+}
+
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p_4 {
+  padding: 1rem;
+}
+
+.bg_primary_10 {
+  background-color: rgba(0, 0, 255, 0.1); /* Adjust the color as needed */
+}
+
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.gap_4 {
+  gap: 1rem;
+}
+
+.text_white {
+  color: white;
+}
+
+.text_sm {
+  font-size: 0.875rem;
+}
+
+.font_bold {
+  font-weight: bold;
+}
+
+.text_3xl {
+  font-size: 1.875rem;
+}
+
+.space_y_4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.bg_white {
+  background-color: white;
+}
+
+.rounded_md {
+  border-radius: 0.375rem;
+}
+
+.p_4 {
+  padding: 1rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.sm_grid_3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gap_4 {
+  gap: 1rem;
+}
+
+.py_3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.opacity_70 {
+  opacity: 0.7;
+}
+
+.input_field {
+  width: 100%;
+  background-color: #f3f4f6; /* Adjust the color as needed */
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 9999px;
+  padding: 0.5rem;
+  outline: 1px solid transparent;
+}
+
+.input_field:focus {
+  outline-color: blue; /* Adjust the color as needed */
+}
+
+.flex_between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text_xl {
+  font-size: 1.25rem;
+}
+
+.range_container {
+  background-color: #f3f4f6; 
+  border-radius: 9999px;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.range_input {
+  appearance: none;
+  width: 100%;
+  background: #0079E6; /* Adjust the colors as needed */
+  height: 0.5rem;
+  border-radius: 9999px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.search_button {
+  background: #0079E6; /* Adjust the colors as needed */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  position: absolute;
+  bottom: -1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: transform 0.2s;
+}
+
+.search_button:hover {
+  transform: translateX(-50%) scale(1.05);
+}
